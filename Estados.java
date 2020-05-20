@@ -1,3 +1,6 @@
-public enum Estados[{
-    APROBADA, PENDIENTE, COBRADA
+public enum Estados {
+	Aprovada,
+	Pendiendo,
+	Cobrada,
+	Anulada
 }
