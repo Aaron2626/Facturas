@@ -3,7 +3,7 @@ public class Factura implements IFactura{
 	public int num;
 	public float base;
 	public float tipoIva;
-	public Estados estado;
+	protected Estados estado;
 
 	public void cambiarEstado(Estados estado){}
 	public float getTotal(){}
