@@ -6,6 +6,10 @@ public class Factura implements IFactura{
 	private Estados estado;
 
 	public void cambiarEstado(Estados estado){}
-	public float getTotal(){}
-	public float getCantidadIva(){}
+	public float getTotal(){
+		return  this.base*this..tipoIva;
+	}
+	public float getCantidadIva(){
+		return this,tipoIva; 
+	}
 }
